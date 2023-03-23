@@ -1,4 +1,6 @@
-import Movies from './components/Movies'
+import Movies from './components/Movies';
+import Search from './components/Search';
+import AddMovies from './components/AddMovies';
 
 function App() {
   return (
@@ -16,28 +18,12 @@ function App() {
           <h1>¡Encuentra las mejores película de tu país!</h1>
         </div>
         <div className="container contenedor">
-
           <Movies />
-
           <aside className="lateral">
             <div className="filters">
-              <div className="search">
-                  <h3 className="title">Buscador:</h3>
-                  <form>
-                      <input type="text" id="search_field" />
-                      <button id="search">Buscar</button>
-                  </form>
-              </div>
-
-              <div className="add">
-                  <h3 className="title">Añadir pelicula:</h3>
-                  <form>
-                      <input type="text" id="title" placeholder="Titulo" />
-                      <textarea id="description" placeholder="Descripción"></textarea>
-                      <button type="submit" id="save">Guardar</button>
-                  </form>
-              </div>
-              </div>
+              <Search />
+              <AddMovies/>
+            </div>
           </aside>
         </div>
         <footer className="footer">
