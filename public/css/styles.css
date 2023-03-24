@@ -9,6 +9,7 @@
 
 *{
     box-sizing: border-box;
+    font-family: sans-serif, Arial, Helvetica;
 }
 body{
     background: var(--black);
@@ -256,6 +257,31 @@ input[type="button"]{
 }
 .successNewMovie, .searchSpan{
     margin-top: 10px;
+}
+
+.editMovieForm{
+    padding-top: 20px;
+}
+.editMovieForm h3{
+    color: white;
+    text-align: left;
+}
+.editMovieForm input, .editMovieForm textarea{
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 5px;
+    background: #f6f7f9;
+    color: #454545;
+    width: 100%;
+    opacity: 4;
+    outline: 0;
+    border-color: transparent;
+}
+.editMovieForm button{
+    width: 100%;
+    margin: 15px 0 0;
 }
 
 /*ESTILOS PARA EL PIE DE PÁGINA*/

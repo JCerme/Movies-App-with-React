@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { SaveStorage } from '../helpers/SaveStorage';
 
-function AddMovies({setListState}){
+const AddMovies = ({setListState}) => {
     const [newMovie, setMovies] = useState({
         title: '',
         overview: '',
@@ -21,7 +21,9 @@ function AddMovies({setListState}){
 
         setMovies(newMovie)     // guardar estado
         setListState( movies => [pelicula, ...movies]) // guardar estado principal
-        //SaveStorage('Movies',pelicula)  // guardar en LocalStorage
+        const movies = JSON.parse(JSON.parse(localStorage.getItem('Movies')));
+        movies.unshift(pelicula);
+        SaveStorage('Movies',JSON.stringify(movies))  // guardar en LocalStorage
 
         e.target.title.value = '';
         e.target.overview.value = '';

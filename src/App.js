@@ -13,7 +13,7 @@ function App() {
             <div className="logo">
                 <div className="play"></div>
             </div>
-            <span>MisPelis</span>
+            <span>MoviesPlus+</span>
           </div>
         </header>
         <div className="banner container">

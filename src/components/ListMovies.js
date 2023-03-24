@@ -1,9 +1,11 @@
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import { SaveStorage } from "../helpers/SaveStorage";
+import { EditMovies } from "./EditMovies";
 
-function ListMovies({listState, setListState}){
+const ListMovies = ({listState, setListState}) => {
     let url = "https://api.simkl.com/movies/trending/?budget=1-1&release=1995-2025&langs=es&extended=overview,genres&wltime=today&client_id=dede2baa084f6ca15607fe847404a51ccc2e80f8f13003f80802d1e76f0b6521"
-    
+    const [ edit, setEdit ] = useState(0);
+
     useEffect(() => {
         getMovies();
     }, [])
@@ -39,9 +41,12 @@ function ListMovies({listState, setListState}){
                     <h3 className="title">{movie.title}</h3>
                     <p className="description">{movie.overview && movie.overview.length > 0 ? movie.overview : "Sin descripción..."}</p>
                     <div className="buttons">
-                        <button className="edit">Editar</button>
+                        <button className="edit" onClick={() => setEdit(movie.ids.simkl_id)}>Editar</button>
                         <button className="delete" onClick={() => RemoveMovie(parseInt(movie.ids.simkl_id))}>Borrar</button>
                     </div>
+                    {edit===movie.ids.simkl_id && (
+                       <EditMovies movieToEdit={movie} getMovies={getMovies} setEdit={setEdit} setListState={setListState} />
+                    )}
                 </article>
             ))
             : <h2 style={{color:'white', textAlign:'left'}}>No hay películas para mostrar. Actualiza la página para añadir unas por defecto...</h2>
