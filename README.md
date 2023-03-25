@@ -1,4 +1,4 @@
-![App Gif](https://www.jcerme.com/other/moviesPlus.gif)
+![App Screenshot](https://www.jcerme.com/other/MoviesPlus1.png)
 
 # 📽️ Movies App
 
@@ -20,8 +20,6 @@ HTML, CSS & ReactJS
 
 
 ## 📸 Screenshots
-### Home Page
-![App Screenshot](https://www.jcerme.com/other/MoviesPlus1.png)
 ### Search Filter
 ![App Screenshot](https://www.jcerme.com/other/MoviesPlus2.png)
 ### Edit & Delete Buttons
