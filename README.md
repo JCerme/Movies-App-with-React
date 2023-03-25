@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+![App Gif](https://www.jcerme.com/other/moviesPlus.gif)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📽️ Movies App
 
-## Available Scripts
+This application might be my first real project in ReactJS. The app is called MoviesPlus+ and, with it, I learned how to include various functions and events using common React hooks like useState and useEffect.
 
-In the project directory, you can run:
+The app offers some useful actions for modifying and searching movies:
 
-### `npm start`
+- Firstly, if it's your first time visiting the website, an AJAX request will be sent, and the most trending movies will appear in the list.
+- Then, those movies will be saved in Local Storage.
+- In the sidebar, you can search for movies by typing the title into the input field.
+- Also, in the sidebar, you can add any movie by simply entering the title and description (the ID will be generated automatically).
+- On the movie cards, you can edit each movie by changing the title and description in a form that will appear.
+- The last feature is the delete button, which removes the movie from the list.
+- If you delete all the movies, an "error message" will be displayed, stating that if you reload the page, the default list will be restored.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Skills Used
+HTML, CSS & ReactJS
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📸 Screenshots
+### Home Page
+![App Screenshot](https://www.jcerme.com/other/MoviesPlus1.png)
+### Search Filter
+![App Screenshot](https://www.jcerme.com/other/MoviesPlus2.png)
+### Edit & Delete Buttons
+![App Screenshot](https://www.jcerme.com/other/MoviesPlus6.png)
+![App Screenshot](https://www.jcerme.com/other/MoviesPlus8.png)
+### Editting Movie
+![App Screenshot](https://www.jcerme.com/other/MoviesPlus7.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📖 What I've Learned?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+With MoviesPlus+, I've learned the most important and basic knowledge of this JavaScript framework called React. I've learned about the useState and useEffect hooks, how to create a React app, how to execute it, install dependencies, and also how to import and export different functions to send data between them. Maybe it's not the best project, but I'm confident that the next one will be even better than MoviesPlus+.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 About Me
+My name is Jorge, but I prefer to be called Cerme (JCerme).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I am a Web Application Development Technician with extensive knowledge in Back-end and Front-end (Full-Stack Developer).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+I also have knowledge in Cybersecurity and UX/UI Design, among many others areas. I love exploring the technological world, and my goal is to provide users with a comfortable, reliable, and attractive experience.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Any suggestions or contributions are welcome.
+You can contact me at:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![portfolio](https://img.shields.io/badge/https://jcerme.com-5f17ce?style=for-the-badge&logo=ko-fi&logoColor=white)](https://jcerme.com/)
+[![linkedin](https://img.shields.io/badge/jorge_cermeno-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/jorge-cermeno)
+[![correo](https://img.shields.io/badge/contact@jcerme.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@jcerme.com)
