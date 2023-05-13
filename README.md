@@ -1,4 +1,4 @@
-![App Screenshot](https://www.jcerme.com/other/MoviesPlus1.png)
+![App Screenshot](https://moviesplus.jcerme.com/media/moviesplus_1.png)
 
 # 📽️ Movies App
 
@@ -21,17 +21,17 @@ HTML, CSS & ReactJS
 
 ## 📸 Screenshots
 ### Search Filter
-![App Screenshot](https://www.jcerme.com/other/MoviesPlus2.png)
+![App Screenshot](https://moviesplus.jcerme.com/media/moviesplus_5.png)
 ### Edit & Delete Buttons
-![App Screenshot](https://www.jcerme.com/other/MoviesPlus6.png)
-![App Screenshot](https://www.jcerme.com/other/MoviesPlus8.png)
-### Editting Movie
-![App Screenshot](https://www.jcerme.com/other/MoviesPlus7.png)
-
+![App Screenshot](https://moviesplus.jcerme.com/media/moviesplus_3.png)
+![App Screenshot](https://moviesplus.jcerme.com/media/moviesplus_2.png)
+### Adding a custom movie
+![App Screenshot](https://moviesplus.jcerme.com/media/moviesplus_6.png)
+### No movies available
+![App Screenshot](https://moviesplus.jcerme.com/media/moviesplus_4.png)
 
 
 ## 📖 What I've Learned?
-
 With MoviesPlus+, I've learned the most important and basic knowledge of this JavaScript framework called React. I've learned about the useState and useEffect hooks, how to create a React app, how to execute it, install dependencies, and also how to import and export different functions to send data between them. Maybe it's not the best project, but I'm confident that the next one will be even better than MoviesPlus+.
 
 
