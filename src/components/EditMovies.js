@@ -24,11 +24,13 @@ export const EditMovies = ({movieToEdit, getMovies, setEdit, setListState}) => {
                 movie.title = e.target.title.value;
                 movie.overview = e.target.overview.value;
             }
+            return movie;
         })
 
         setListState(movies);
         SaveStorage('Movies', JSON.stringify(movies));
         setEdit(0)
+        return edittedMovie;
     }
 
     return (

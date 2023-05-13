@@ -13,7 +13,7 @@ function Search({setListState}) {
         } else {
             setListState(movies)
         }
-        
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [toSearch])
 
     return (

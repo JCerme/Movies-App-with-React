@@ -8,6 +8,7 @@ const ListMovies = ({listState, setListState}) => {
 
     useEffect(() => {
         getMovies();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     function getMovies(){
